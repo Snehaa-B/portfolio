@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
           <div className="animate-fade-in-up">
             <div className="mb-8">
               <img
-                src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop&crop=face"
+                src="/public/sneha_image_done.jpeg"
                 alt="Sneha Bargale"
                 className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white dark:border-gray-800 shadow-xl transform hover:scale-105 transition-transform duration-300"
               />

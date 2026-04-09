@@ -118,7 +118,7 @@ const Hero: React.FC = () => {
             </button>
             
             <a
-              href="https://drive.google.com/file/d/1AXbSucj2_FbOXrLlsncAjoFerMZRkypB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1quHKy3zQFPOvNjQ5ZQAeGD0mMJl0SGPL/view?usp=sharing"
               download
               className="group border-2 border-teal-600 text-teal-600 dark:text-teal-400 px-8 py-4 rounded-full font-semibold hover:bg-teal-600 hover:text-white dark:hover:text-white transition-all duration-300 flex items-center gap-2"
             >

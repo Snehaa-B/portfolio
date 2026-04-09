@@ -67,7 +67,7 @@ const About: React.FC = () => {
             </div>
 
             <div className="flex flex-wrap gap-3 pt-4">
-              {['JavaScript', 'React', 'Node.js', 'Python', 'MongoDB', 'Express.js', 'Git'].map((skill) => (
+              {['JavaScript', 'React', 'Node.js', 'MongoDB', 'Express.js', 'Git'].map((skill) => (
                 <span
                   key={skill}
                   className="px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium hover:scale-105 transition-transform duration-200"

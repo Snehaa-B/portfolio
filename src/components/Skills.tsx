@@ -41,7 +41,6 @@ const Skills: React.FC = () => {
       skills: [
         { name: "Node.js", level: 85, color: "bg-green-600" },
         { name: "Express.js", level: 83, color: "bg-gray-700" },
-        { name: "Python", level: 78, color: "bg-blue-500" },
         { name: "RESTful APIs", level: 87, color: "bg-purple-500" },
       ]
     },
@@ -62,7 +61,6 @@ const Skills: React.FC = () => {
       color: "from-orange-500 to-red-500",
       skills: [
         { name: "Git & GitHub", level: 90, color: "bg-gray-800" },
-        { name: "Docker", level: 70, color: "bg-blue-500" },
         { name: "AWS", level: 65, color: "bg-orange-500" },
         { name: "Vercel", level: 88, color: "bg-black" }
       ]
@@ -73,7 +71,7 @@ const Skills: React.FC = () => {
       color: "from-teal-500 to-cyan-500",
       skills: [
         { name: "JavaScript", level: 90, color: "bg-yellow-500" },
-        { name: "Python", level: 78, color: "bg-blue-500" },
+        { name: "TypeScript", level: 78, color: "bg-blue-500" },
         { name: "C++", level: 72, color: "bg-blue-700" }
       ]
     }

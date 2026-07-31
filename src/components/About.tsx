@@ -6,7 +6,7 @@ const About: React.FC = () => {
     {
       icon: <Code2 className="w-6 h-6" />,
       title: "Full Stack Development",
-      description: "Proficient in modern web technologies including React, Node.js, and database management"
+      description: "Building scalable web applications using Next.js, React.js, Node.js, Express.js, and MongoDB"
     },
     {
       icon: <Brain className="w-6 h-6" />,
@@ -30,9 +30,11 @@ const About: React.FC = () => {
     },
     {
       icon: <Award className="w-6 h-6" />,
-      title: "Academic Excellence",
-      description: "Consistent performance in Computer Science Engineering curriculum"
-    }
+      title: "Engineering Graduate",
+      description: "Bachelor of Engineering in Electrical and Electronics Engineering with strong software development foundations"
+    },
+    
+    
   ];
 
   return (
@@ -52,22 +54,36 @@ const About: React.FC = () => {
           <div className="space-y-6">
             <div className="prose prose-lg dark:prose-invert">
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                I'm a passionate final year Electrical and Electronics Engineering student with a deep love 
-                for technology and innovation. My journey in software development has been driven 
-                by curiosity and a desire to create meaningful solutions that make a difference.
+                I'm a Computer Science enthusiast and Engineering graduate with a Bachelor of Engineering in
+                Electrical and Electronics Engineering from Sir M. Visvesvaraya Institute of Technology,
+                Bangalore. I enjoy building modern web applications and creating practical solutions through
+                technology.
               </p>
               
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                Throughout my academic journey, I've developed expertise in full-stack development, 
-                with hands-on experience in modern frameworks and technologies. I enjoy the entire 
-                development lifecycle - from conceptualizing ideas to deploying production-ready applications.
+                I have hands-on experience in full-stack development with technologies such as Next.js,
+                React.js, TypeScript, JavaScript, Node.js, Express.js, MongoDB, and Tailwind CSS.
+                During my internship at Wedsy, I developed responsive user interfaces, converted Figma
+                designs into reusable components, and optimized application performance to enhance user
+                experience. :contentReference[oaicite:1]{index=1}
               </p>
 
               
             </div>
 
             <div className="flex flex-wrap gap-3 pt-4">
-              {['JavaScript', 'React', 'Node.js', 'MongoDB', 'Express.js', 'Git'].map((skill) => (
+              {[
+  'Next.js',
+  'React.js',
+  'TypeScript',
+  'JavaScript',
+  'Node.js',
+  'Express.js',
+  'MongoDB',
+  'Tailwind CSS',
+  'Git',
+  'Postman'
+].map((skill) => ( => (
                 <span
                   key={skill}
                   className="px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium hover:scale-105 transition-transform duration-200"

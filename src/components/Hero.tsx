@@ -92,11 +92,7 @@ const Hero: React.FC = () => {
             </div>
             
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-              {/* Passionate final year CSE student with expertise in full-stack development, 
-              problem-solving, and creating innovative digital solutions. Always eager to 
-              learn new technologies and tackle challenging projects. */}
-              "Final-year student passionate about full-stack development and building impactful
-               digital solutions.Skilled in problem-solving and driven by curiosity, I thrive on learning new technologies and tackling real-world challenges through code."
+              Engineering graduate with experience in full-stack web development and modern JavaScript technologies. Passionate about building user-centric applications using Next.js, React, Node.js, and MongoDB, with a strong focus on performance, clean code, and continuous learning.
             </p>
           </div>
 

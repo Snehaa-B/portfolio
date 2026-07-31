@@ -94,9 +94,9 @@ const Contact: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="flex justify-center">
           {/* Contact Information */}
-          <div className="space-y-8">
+          <div className="space-y-8 max-w-2xl w-full">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                 <MessageCircle className="w-7 h-7 text-blue-600 dark:text-blue-400" />

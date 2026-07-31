@@ -65,7 +65,7 @@ const About: React.FC = () => {
                 React.js, TypeScript, JavaScript, Node.js, Express.js, MongoDB, and Tailwind CSS.
                 During my internship at Wedsy, I developed responsive user interfaces, converted Figma
                 designs into reusable components, and optimized application performance to enhance user
-                experience. :contentReference[oaicite:1]{index=1}
+                experience.
               </p>
 
               

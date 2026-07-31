@@ -3,6 +3,23 @@ import { Calendar, GraduationCap, Award, Code, BookOpen, Trophy, Target } from '
 
 const Experience: React.FC = () => {
   const timeline = [
+
+    {
+      type: 'experience',
+      title: 'Software Engineer Intern',
+      subtitle: 'Wedsy',
+      organization: 'Bangalore, India',
+      period: 'Nov 2025 - May 2026',
+      description:
+        'Developed a responsive event management platform using Next.js and JavaScript. Converted Figma designs into pixel-perfect reusable React components and optimized rendering performance to improve user experience.',
+      icon: <Code className="w-5 h-5" />,
+      achievements: [
+        'Improved page load performance by 40%',
+        'Converted Figma designs into reusable React components',
+        'Optimized client-side rendering and component structure',
+        'Worked with Next.js, JavaScript, React, and modern CSS'
+      ]
+    },
     {
       type: 'education',
       title: 'Bachelor of Engineering',
@@ -26,24 +43,11 @@ const Experience: React.FC = () => {
       description: 'Contributed to an AI-based football scouting platform  using Node.js, Prisma, PostgreSQL, and YOLOv8 +Deep SORT for real-time player tracking and analysis.',
       icon: <Trophy className="w-5 h-5" />
     },
-    {
-      type: 'learning',
-      title: 'Open Source Contributions',
-      subtitle: 'Community Developer',
-      organization: 'GitHub & Open Source Projects',
-      period: '2023 - Present',
-      description: 'Contributing to open source projects and building a portfolio of diverse development projects. Focused on web development, documentation, and community engagement.',
-      icon: <Target className="w-5 h-5" />,
-      achievements: [
-        'Multiple contributions to open source repositories',
-        'Built and maintained personal projects on GitHub',
-        'Collaborative development experience'
-      ]
-    }
   ];
 
   const getTypeColor = (type: string) => {
     switch (type) {
+      case 'experience': return 'bg-gradient-to-r from-emerald-500 to-emerald-600';
       case 'education': return 'bg-gradient-to-r from-blue-500 to-blue-600';
       case 'project': return 'bg-gradient-to-r from-green-500 to-green-600';
       case 'achievement': return 'bg-gradient-to-r from-purple-500 to-purple-600';
@@ -55,6 +59,7 @@ const Experience: React.FC = () => {
 
   const getTypeLabel = (type: string) => {
     switch (type) {
+      case 'experience': return 'Experience';
       case 'education': return 'Education';
       case 'project': return 'Project';
       case 'achievement': return 'Achievement';
